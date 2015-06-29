@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - AJ Celiano</title>
+        @Styles.Render("~/Content/Site.css")
+    </head>
+    <body>
+        <div id="navBar">
+            <ul>
+                <li>@Html.ActionLink("Home", "Index", "AJC")</li>
+                <li>@Html.ActionLink("About", "About", "AJC")</li>
+                <li>@Html.ActionLink("WorkEthic", "WorkEthic", "Work")</li>
+                <li>@Html.ActionLink("WorkLib", "WorkLib", "Work")</li>
+                <li>@Html.ActionLink("CleanRooms", "CleanRooms", "Work")</li>
+                <li>@Html.ActionLink("RetroFit", "RetroFit", "Work")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "AJC")</li>
+            </ul>
+        </div>
+        <div id="content">
+            @RenderBody()
+        </div>
+        <footer>
+            <img src="~/Content/Images/footer.png" />
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+.CleanRooms_Header, .CleanRooms_0, .CleanRooms_1, .CleanRooms_2, .CleanRooms_3, .Cleanrooms_4, .CleanRooms_5 {
+    position:absolute;
+    background: url(Images/CleanRooms.png) no-repeat;
+}
+.CleanRooms_Header{
+	background-position: 0 -205px ;
+	width: 800px;
+	height: 120px;
+    position:relative;
+}
+
+.CleanRooms_0{
+	background-position: 0 0;
+	width: 186px;
+	height: 204px;
+    left:102px;
+    top:155px;
+}
+
+.CleanRooms_1{
+	background-position: -186px 0;
+	width: 186px;
+	height: 184px;
+    left:102px;
+    top:445px;
+}
+
+.CleanRooms_2{
+	background-position: -373px 0;
+	width: 189px;
+	height: 186px;
+    left:100px;
+    top:731px;
+}
+
+.CleanRooms_3{
+	background-position: -560px 0;
+	width: 199px;
+	height: 197px;
+    left:95px;
+    top:989px;
+}
+
+.Cleanrooms_4{
+	background-position: 0 -326px ;
+	width: 370px;
+	height: 293px;
+    left:397px;
+    top:538px;
+}
+
+.CleanRooms_5{
+	background-position: -371px -326px ;
+	width: 277px;
+	height: 181px;
+    left:443px;
+    top:1069px;
+}
+

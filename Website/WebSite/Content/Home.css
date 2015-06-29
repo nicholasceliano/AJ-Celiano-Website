@@ -1,0 +1,106 @@
+.Home_header, .Home_Logo, .Home_0, .Home_1, .Home_2, .Home_3, .Home_4, .Home_5, .Home_6, .Home_7, .Home_8, .Home_9, .Home_10 {
+	background: url(Images/Home.png) no-repeat;
+}
+
+.Home_header{
+	background-position: 0 0;
+	width: 490px;
+	height: 77px;
+}
+
+.Home_Logo{
+	background-position: -205px -299px ;
+	width: 402px;
+	height: 250px;
+    left:199px;
+    top:131px;
+}
+
+.Home_0{
+	background-position: 0 -78px ;
+	width: 150px;
+	height: 112px;
+    left:11px;
+    top:85px;
+}
+
+.Home_1{
+	background-position: -151px -78px ;
+	width: 134px;
+	height: 101px;
+    left:646px;
+    top:85px;
+}
+
+.Home_2{
+	background-position: -286px -78px ;
+	width: 151px;
+	height: 113px;
+    left:11px;
+    top:204px;
+}
+
+.Home_3{
+	background-position: -438px -78px ;
+	width: 135px;
+	height: 102px;
+    left:646px;
+    top:204px;
+}
+
+.Home_4{
+	background-position: 0 -191px ;
+	width: 150px;
+	height: 112px;
+    left:11px;
+    top:324px;
+}
+
+.Home_5{
+	background-position: -151px -192px ;
+	width: 140px;
+	height: 105px;
+    left:646px;
+    top:324px;
+}
+
+.Home_6{
+	background-position: -292px -192px ;
+	width: 143px;
+	height: 96px;
+    left:11px;
+    top:444px;
+}
+
+.Home_7{
+	background-position: -438px -181px ;
+	width: 144px;
+	height: 108px;
+    left:646px;
+    top:444px;
+}
+
+.Home_8{
+	background-position: 0 -304px ;
+	width: 99px;
+	height: 132px;
+    left:186px;
+    top:411px;
+}
+
+.Home_9{
+	background-position: -100px -304px ;
+	width: 103px;
+	height: 137px;
+    left:523px;
+    top:411px;
+}
+
+.Home_10{
+	background-position: -2px -443px;
+	width: 159px;
+	height: 120px;
+    left:326px;
+    top:405px;
+    cursor:pointer;
+}

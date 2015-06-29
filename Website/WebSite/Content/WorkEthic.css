@@ -1,0 +1,41 @@
+.WorkEthic_Header, .WorkEthic_0, .WorkEthic_1, .WorkEthic_2, .WorkEthic_3 {
+	background: url(Images/WorkEthic.png) no-repeat;
+    position:absolute;
+}
+
+.WorkEthic_Header{
+	background-position: 0 0;
+	width: 800px;
+	height: 131px;
+    position:relative;
+}
+
+.WorkEthic_0{
+	background-position: 0 -132px ;
+	width: 132px;
+	height: 120px;
+    left:6px;
+    top:151px;
+}
+
+.WorkEthic_1{
+	background-position: -133px -132px ;
+	width:133px;
+	height:129px;
+    left:6px;
+    top:291px;
+}
+
+.WorkEthic_2{
+	background-position: -267px -132px ;
+	width: 133px;
+	height: 122px;
+    left:6px;
+    top:439px;
+}
+
+.WorkEthic_3{
+	background-position: -401px -132px ;
+	width: 116px;
+	height: 118px;
+}
