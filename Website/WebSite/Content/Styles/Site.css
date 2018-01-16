@@ -1,0 +1,145 @@
+﻿body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    margin: auto 0;
+    width: 100%;
+}
+
+header {
+    border-bottom: 1px solid #9c9f9f;
+}
+
+.header-logo img {
+    margin:auto;
+    display:block;
+    padding-bottom:16px;
+}
+
+.navbar {
+    border-top:1px solid #9c9f9f;
+    margin-bottom:0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.navbar ul li {
+    float:left;
+    width:25%;
+}
+
+.navbar ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color:#0070b1;
+    font-weight:bold;
+}
+
+.navbar ul li:not(.sublink) a {
+    cursor:pointer;
+}
+
+.navbar ul li.sublink a {
+    cursor: default;
+}
+
+
+.navbar ul li div.sublink-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    border:1px solid black;
+    z-index: 1;
+}
+
+.navbar ul li div.sublink-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.navbar ul li div.sublink-content ul li {
+    width:100%;
+}
+
+.navbar ul li div.sublink-content ul li a {
+    display: block;
+    color: #000;
+    width:100%;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li div.sublink-content ul li a:hover {
+    color:#fff;
+    cursor:pointer;
+    background-color:#0070b1;
+    font-weight:normal;
+}
+
+.navbar ul li.sublink:hover .sublink-content {
+    display:block;
+}
+
+
+
+
+
+footer {
+    background-color: #0070b1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align:left;
+    color:#fff;
+}
+
+footer .footer-logo {
+    padding-bottom: 15px;
+}
+
+footer .footer-logo img {
+    margin:auto;
+    width:100%;
+    display:block;
+}
+
+footer div.section-title {
+    font-weight:bold;
+    text-transform:uppercase;
+    padding-bottom:15px;
+}
+footer div.hours {
+    
+    padding-bottom: 10px;
+}
+footer span i {
+    padding:8px;
+    padding-left:0px;
+}
+
+footer a,
+footer a:hover,
+footer a:visited,
+footer a:active {
+    color: #fff;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+
+
+.no-padding {
+    padding:0;
+}

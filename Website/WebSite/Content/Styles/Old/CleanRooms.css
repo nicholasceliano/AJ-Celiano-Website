@@ -1,6 +1,6 @@
 .CleanRooms_Header, .CleanRooms_0, .CleanRooms_1, .CleanRooms_2, .CleanRooms_3, .Cleanrooms_4, .CleanRooms_5 {
-    position:absolute;
-    background: url(Images/CleanRooms.png) no-repeat;
+    position: absolute;
+    background: url(Images/Old/CleanRooms.png) no-repeat;
 }
 .CleanRooms_Header{
 	background-position: 0 -205px ;
