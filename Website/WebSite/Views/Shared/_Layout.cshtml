@@ -2,19 +2,19 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewBag.Title - AJ Celiano</title>
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/lib")
+    @Scripts.Render("~/bundles/site")
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header class="col-md-12">
-        <div class="header-logo">
+        <div class="header-logo col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
             <img src="~/Content/Images/Logo.png" />
         </div>
-        <div class="navbar col-md-4 col-md-offset-4 no-padding">
+        <div class="navbar col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 no-padding">
             <ul>
                 <li>
                     <a href="/">Home</a>
@@ -72,60 +72,64 @@
     </div>
     <footer class="col-md-12">
         <div class="col-md-8 col-md-offset-2">
-            <div class="col-md-12">
-                <div class="col-md-3">
-                    <div class="col-md-12 footer-logo">
-                        <img src="~/Content/Images/Logo_Footer.png" />
-                    </div>
-                    <div class="col-md-12">
-                        <span>
-                            AJ Celiano has been a Family Business Over 80 Years delivering quality and innovative HVAC solutions as "Commercial Comfort Engineers".
-                        </span>
-                    </div>
+            <div class="col-md-3 visible-lg visible-md">
+                <div class="col-md-12 footer-logo">
+                    <img src="~/Content/Images/Logo_Footer.png" />
                 </div>
-                <div class="col-md-3">
-                    <div class="section-title">
-                        <span>Contact</span>
-                    </div>
-                    <div>
-                        <span><i class="fa fa-map-marker"></i>460 Ludlow Ave Cranford, NJ 07016</span>
-                    </div>
-                    <div>
-                        <span><i class="fa fa-phone"></i>(908)-272-7510</span>
-                    </div>
-                    <div>
-                        <span><i class="fa fa-envelope"></i>info@ajceliano.com</span>
-                    </div>
-                    <div>
-                        <span><i class="fa fa-fax"></i>Fax: (908)-272-7510</span>
-                    </div>
+                <div class="col-md-12">
+                    <span>
+                        AJ Celiano has been a Family Business Over 80 Years delivering quality and innovative HVAC solutions as "Commercial Comfort Engineers".
+                    </span>
                 </div>
-                <div class="col-md-3">
-                    <div class="section-title">
-                        <span>Office Hours</span>
-                    </div>
-                    <div class="hours">
-                        <span>Monday-Friday: 8am to 5pm</span>
-                    </div>
-                    <div class="hours">
-                        <span>Saturday: Closed</span>
-                    </div>
-                    <div class="hours">
-                        <span>Sunday: Closed</span>
-                    </div>
+            </div>
+            <div class="col-md-3">
+                <div class="section-title">
+                    <span>Contact</span>
                 </div>
-                <div class="col-md-3">
-                    <div class="section-title">
-                        <span>Connect</span>
-                    </div>
-                    <div>
-                        <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-square fa-5x"></i></a>
-                        <a href="https://facebook.com" target="_blank"><i class="fa fa-linkedin-square fa-5x"></i></a>
-                        <a href="https://facebook.com" target="_blank"><i class="fa fa-instagram fa-5x"></i></a>
-                    </div>
+                <div>
+                    <a href="https://www.google.com/maps/place/460+Ludlow+Ave,+Cranford,+NJ+07016" target="_blank"><i class="fa fa-map-marker"></i>460 Ludlow Ave Cranford, NJ 07016</a>
+                </div>
+                <div>
+                    <a href="tel:9082727510"><i class="fa fa-phone"></i>(908)-272-7510</a>
+                </div>
+                <div>
+                    <a href="mailto:info@ajceliano.com"><i class="fa fa-envelope"></i>info@ajceliano.com</a>
+                </div>
+                <div>
+                    <a href="tel:9082727510"><i class="fa fa-fax"></i>Fax: (908)-272-7510</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="section-title">
+                    <span>Office Hours</span>
+                </div>
+                <div class="hours">
+                    <span>Monday-Friday: 8am to 5pm</span>
+                </div>
+                <div class="hours">
+                    <span>Saturday: Closed</span>
+                </div>
+                <div class="hours">
+                    <span>Sunday: Closed</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="section-title">
+                    <span>Connect</span>
+                </div>
+                <div>
+                    <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-square fa-5x"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin-square fa-5x"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram fa-5x"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 </body>
 </html>
+
+<script>
+    $(document).ready(function () {
+        navigation.init();
+    });
+</script>

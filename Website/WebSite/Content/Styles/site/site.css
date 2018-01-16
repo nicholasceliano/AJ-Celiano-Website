@@ -1,0 +1,10 @@
+﻿body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    margin: auto 0;
+    width: 100%;
+}
+
+.no-padding {
+    padding:0;
+}

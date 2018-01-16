@@ -104,11 +104,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutUsController.cs" />
-    <Compile Include="Controllers\AJCController.cs" />
+    <Compile Include="Controllers\Old\AJCController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
-    <Compile Include="Controllers\WorkController.cs" />
+    <Compile Include="Controllers\Old\WorkController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -135,7 +135,9 @@
     <Content Include="Content\Images\Old\WorkEthic.png" />
     <Content Include="Content\Styles\Old\RetroFit.css" />
     <Content Include="Content\Styles\Old\WorkEthic.css" />
-    <Content Include="Content\Styles\Site.css" />
+    <Content Include="Content\Styles\site\footer.css" />
+    <Content Include="Content\Styles\site\header.css" />
+    <Content Include="Content\Styles\site\site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -160,6 +162,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\site\navigation.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
