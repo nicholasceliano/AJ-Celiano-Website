@@ -10,8 +10,12 @@
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header class="col-md-12">
-        <div class="header-logo col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+    <header class="col-md-12" style="background-color:#fff;">
+        @if (ViewBag.Title == "Homee")
+        {
+        <a href="/Contact/ContactInfo" style="position:absolute;right:0;padding-left:15px; margin-top:10px;width:250px;" class="home-read-more-btn-about-us">Service Request Inquries</a>
+        }
+        <div class="header-logo col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3" style="margin-top:10px;">
             <img src="~/Content/Images/Logo.png" />
         </div>
         <div class="navbar col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 no-padding">

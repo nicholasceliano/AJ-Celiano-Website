@@ -20,3 +20,7 @@ C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\obj\Release\WebSite.csprojRe
 C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\obj\Release\WebSite.csproj.CoreCompileInputs.cache
 C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\obj\Release\WebSite.dll
 C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\obj\Release\WebSite.pdb
+C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\bin\Antlr3.Runtime.dll
+C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\bin\WebGrease.dll
+C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\bin\Newtonsoft.Json.dll
+C:\git\AJWebsite\AJ-Celiano-Website\Website\WebSite\bin\Antlr3.Runtime.pdb
