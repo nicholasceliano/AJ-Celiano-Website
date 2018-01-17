@@ -1,0 +1,54 @@
+﻿#navBar ul {
+    
+    margin-bottom:0;
+    text-align:center;
+    list-style-type:none;
+}
+
+#navBar ul li {
+    display:inline;
+    padding-left:10px;
+    padding-right:15px;
+}
+
+#navBar ul li a {
+    color:#999;
+    text-decoration:none;
+}
+
+#content {
+    margin:auto; 
+    width:800px;
+    font-family:Verdana, sans-serif;
+    line-height:20px;
+    color:#424242;
+}
+
+
+
+#pageHome {
+    position:relative;
+}
+
+#pageHome div {
+    position:absolute;
+}
+
+
+
+#pageContact h4 {
+    margin-bottom:0;
+    text-decoration:underline;
+    
+}
+
+#pageContact a {
+    color:#999;
+}
+
+
+
+
+footer {
+    text-align:center;
+}
