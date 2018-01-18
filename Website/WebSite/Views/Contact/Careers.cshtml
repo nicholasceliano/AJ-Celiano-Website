@@ -1,8 +1,56 @@
-﻿
+﻿@model WebSite.Models.CareersViewModel
 @{
     ViewBag.Title = "Careers";
 }
 
 <div class="col-md-6 col-md-offset-3 no-padding">
-    <h2>Careers</h2>
+    <h3 class="margin-bottom-15 margin-top-15">Careers</h3>
+    @if (Model.Careers.Count > 0)
+    {
+
+        foreach (var career in Model.Careers)
+        {
+        <div class="col-md-12 no-padding margin-bottom-15">
+            <h3 class="career" style="border-bottom: 1px solid black;cursor:pointer;"><i class="fa fa-angle-down"></i> @career.Title</h3>
+            <div class="col-md-12 no-padding">
+                <div class="indent">
+                    <div class="margin-bottom-15">
+                        <span class="bold">Title: </span>
+                        <span>@career.Title</span>
+                    </div>
+                    <div class="margin-bottom-15">
+                        <span class="bold">Type: </span>
+                        <span>@career.Type</span>
+                    </div>
+                    <div class="margin-bottom-15">
+                        <span class="bold">Location: </span>
+                        <span>@career.Location</span>
+                    </div>
+                    <div class="margin-bottom-15">
+                        <span class="bold">Compensation: </span>
+                        <span>@career.Compensation</span>
+                    </div>
+                    <div class="margin-bottom-15">
+                        <span class="bold" style="display:block;">Description: </span>
+                        <div class="indent">
+                            <span>@career.Description</span>
+                        </div>
+                    </div>
+                    <div class="margin-bottom-15">
+                        <span class="bold">Date Posted: </span>
+                        <span>@career.DatePosted</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    }
+    else
+    {
+        <h4 class="margin-bottom-40">There are currently no open positions</h4>
+    }
 </div>
+
+<script>
+    careers.init();
+</script>

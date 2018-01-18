@@ -4,7 +4,12 @@ namespace WebSite.Controllers
 {
     public class ServicesController : Controller
     {
-        public ActionResult CleanRooms()
+        public ActionResult MechanicalConstructionDesign()
+        {
+            return View();
+        }
+
+        public ActionResult Installation()
         {
             return View();
         }
@@ -14,12 +19,17 @@ namespace WebSite.Controllers
             return View();
         }
 
-        public ActionResult WorkEthic()
+        public ActionResult Controls()
         {
             return View();
         }
 
-        public ActionResult WorkLibrary()
+        public ActionResult ServiceRepair()
+        {
+            return View();
+        }
+
+        public ActionResult Maintenance()
         {
             return View();
         }

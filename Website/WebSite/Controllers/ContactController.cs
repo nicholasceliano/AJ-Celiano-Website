@@ -1,4 +1,8 @@
-﻿using System.Web.Mvc;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.IO;
+using System.Web.Mvc;
+using WebSite.Models;
 
 namespace WebSite.Controllers
 {
@@ -11,7 +15,18 @@ namespace WebSite.Controllers
 
         public ActionResult Careers()
         {
-            return View();
+            var viewModel = new CareersViewModel();
+            var careers = new List<Career>();
+            
+            foreach (string file in Directory.EnumerateFiles(Server.MapPath("~/App_Data/Careers/"), "*.json"))
+            {
+                var career = JsonConvert.DeserializeObject<Career>(System.IO.File.ReadAllText(file));
+                careers.Add(career);
+            }
+
+            viewModel.Careers = careers;
+            
+            return View(viewModel);
         }
     }
 }

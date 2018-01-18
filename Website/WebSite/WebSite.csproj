@@ -49,6 +49,7 @@
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -112,9 +113,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Career.cs" />
+    <Compile Include="Models\CareersViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Careers\ServiceManager.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\Careers\AccountManager.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Images\AboutUs\Dan.png" />
@@ -195,6 +204,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\site\careers.js" />
     <Content Include="Scripts\site\navigation.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -216,19 +226,18 @@
     <Content Include="Views\Work\RetroFit.cshtml" />
     <Content Include="Views\Shared\_LayoutOld.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\AboutUs\MissionStatement.cshtml" />
     <Content Include="Views\AboutUs\History.cshtml" />
     <Content Include="Views\Contact\Careers.cshtml" />
     <Content Include="Views\Contact\ContactInfo.cshtml" />
-    <Content Include="Views\Services\CleanRooms.cshtml" />
+    <Content Include="Views\Services\Installation.cshtml" />
     <Content Include="Views\Services\RetroFit.cshtml" />
     <Content Include="Views\Services\WorkEthic.cshtml" />
-    <Content Include="Views\Services\WorkLibrary.cshtml" />
+    <Content Include="Views\Services\MechanicalConstructionDesign.cshtml" />
+    <Content Include="Views\Services\Controls.cshtml" />
+    <Content Include="Views\Services\Maintenance.cshtml" />
+    <Content Include="Views\Services\ServiceRepair.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
