@@ -29,7 +29,12 @@ namespace WebSite.Controllers
             return View();
         }
 
-        public ActionResult Maintenance()
+        public ActionResult PreventativeMaintenance()
+        {
+            return View();
+        }
+
+        public ActionResult BuildingAutomation()
         {
             return View();
         }

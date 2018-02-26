@@ -234,8 +234,9 @@
     <Content Include="Views\Services\WorkEthic.cshtml" />
     <Content Include="Views\Services\MechanicalConstructionDesign.cshtml" />
     <Content Include="Views\Services\Controls.cshtml" />
-    <Content Include="Views\Services\Maintenance.cshtml" />
+    <Content Include="Views\Services\PreventativeMaintenance.cshtml" />
     <Content Include="Views\Services\ServiceRepair.cshtml" />
+    <Content Include="Views\Services\BuildingAutomation.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
