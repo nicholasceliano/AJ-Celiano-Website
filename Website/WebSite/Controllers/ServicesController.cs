@@ -18,12 +18,7 @@ namespace WebSite.Controllers
         {
             return View();
         }
-
-        public ActionResult Controls()
-        {
-            return View();
-        }
-
+        
         public ActionResult ServiceRepair()
         {
             return View();

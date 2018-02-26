@@ -132,6 +132,9 @@
     <Content Include="Content\Images\AboutUs\Office.png" />
     <Content Include="Content\Images\AboutUs\OldOffice.png" />
     <Content Include="Content\Images\AboutUs\Owners.png" />
+    <Content Include="Content\Images\BuildingAutomation\Header.png" />
+    <Content Include="Content\Images\BuildingAutomation\IMG_2534.JPG" />
+    <Content Include="Content\Images\BuildingAutomation\IMG_2638.JPG" />
     <Content Include="Content\Images\CleanRooms\Celldex.png" />
     <Content Include="Content\Images\CleanRooms\CleanroomChar.png" />
     <Content Include="Content\Images\CleanRooms\Diagram.png" />
@@ -139,8 +142,10 @@
     <Content Include="Content\Images\CleanRooms\MedLab.png" />
     <Content Include="Content\Images\CleanRooms\Ruger.png" />
     <Content Include="Content\Images\CleanRooms\USCustoms.png" />
+    <Content Include="Content\Images\SplashLogo.JPG" />
     <Content Include="Content\Images\Logo_Footer.png" />
     <Content Include="Content\Images\Logo.png" />
+    <Content Include="Content\Images\PreventativeMaintenance\Header.png" />
     <Content Include="Content\Images\RetroFit\Arrow.png" />
     <Content Include="Content\Images\RetroFit\ArrowText.png" />
     <Content Include="Content\Images\RetroFit\Crew.png" />
@@ -152,7 +157,7 @@
     <Content Include="Content\Images\RetroFit\New2.png" />
     <Content Include="Content\Images\RetroFit\Old1.png" />
     <Content Include="Content\Images\RetroFit\Old2.png" />
-    <Content Include="Content\Images\SplashImage1.jpg" />
+    <Content Include="Content\Images\ServiceRepair\Header.png" />
     <Content Include="Content\Images\WorkEthic\Construction1.png" />
     <Content Include="Content\Images\WorkEthic\Construction2.png" />
     <Content Include="Content\Images\WorkEthic\Construction3.png" />
@@ -233,7 +238,6 @@
     <Content Include="Views\Services\RetroFit.cshtml" />
     <Content Include="Views\Services\WorkEthic.cshtml" />
     <Content Include="Views\Services\MechanicalConstructionDesign.cshtml" />
-    <Content Include="Views\Services\Controls.cshtml" />
     <Content Include="Views\Services\PreventativeMaintenance.cshtml" />
     <Content Include="Views\Services\ServiceRepair.cshtml" />
     <Content Include="Views\Services\BuildingAutomation.cshtml" />
