@@ -24,12 +24,17 @@ namespace WebSite.Controllers
             return View();
         }
 
-        public ActionResult PreventativeMaintenance()
+        public ActionResult PreventiveMaintenance()
         {
             return View();
         }
 
         public ActionResult BuildingAutomation()
+        {
+            return View();
+        }
+
+        public ActionResult ITLanRooms()
         {
             return View();
         }

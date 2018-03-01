@@ -145,7 +145,7 @@
     <Content Include="Content\Images\SplashLogo.JPG" />
     <Content Include="Content\Images\Logo_Footer.png" />
     <Content Include="Content\Images\Logo.png" />
-    <Content Include="Content\Images\PreventativeMaintenance\Header.png" />
+    <Content Include="Content\Images\PreventiveMaintenance\Header.png" />
     <Content Include="Content\Images\RetroFit\Arrow.png" />
     <Content Include="Content\Images\RetroFit\ArrowText.png" />
     <Content Include="Content\Images\RetroFit\Crew.png" />
@@ -238,9 +238,10 @@
     <Content Include="Views\Services\RetroFit.cshtml" />
     <Content Include="Views\Services\WorkEthic.cshtml" />
     <Content Include="Views\Services\MechanicalConstructionDesign.cshtml" />
-    <Content Include="Views\Services\PreventativeMaintenance.cshtml" />
+    <Content Include="Views\Services\PreventiveMaintenance.cshtml" />
     <Content Include="Views\Services\ServiceRepair.cshtml" />
     <Content Include="Views\Services\BuildingAutomation.cshtml" />
+    <Content Include="Views\Services\ITLanRooms.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
