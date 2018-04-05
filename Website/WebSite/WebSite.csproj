@@ -113,8 +113,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Career.cs" />
-    <Compile Include="Models\CareersViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -135,35 +133,60 @@
     <Content Include="Content\Images\BuildingAutomation\Header.png" />
     <Content Include="Content\Images\BuildingAutomation\IMG_2534.JPG" />
     <Content Include="Content\Images\BuildingAutomation\IMG_2638.JPG" />
-    <Content Include="Content\Images\CleanRooms\Celldex.png" />
-    <Content Include="Content\Images\CleanRooms\CleanroomChar.png" />
-    <Content Include="Content\Images\CleanRooms\Diagram.png" />
-    <Content Include="Content\Images\CleanRooms\Header.png" />
-    <Content Include="Content\Images\CleanRooms\MedLab.png" />
-    <Content Include="Content\Images\CleanRooms\Ruger.png" />
-    <Content Include="Content\Images\CleanRooms\USCustoms.png" />
+    <Content Include="Content\Images\EmergencyService\HVAC - Service.jpg" />
+    <Content Include="Content\Images\EmergencyService\HVAC - Service2.jpg" />
+    <Content Include="Content\Images\EmergencyService\lexus heat exchangers 2.JPG" />
+    <Content Include="Content\Images\EmergencyService\Lexus heat exchangers 3.JPG" />
+    <Content Include="Content\Images\EmergencyService\serivce tower.JPG" />
+    <Content Include="Content\Images\EmergencyService\service dectron.JPG" />
+    <Content Include="Content\Images\InstallationRetrofit\Celldex.png" />
+    <Content Include="Content\Images\InstallationRetrofit\CleanroomChar.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Diagram.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Header.png" />
+    <Content Include="Content\Images\InstallationRetrofit\MedLab.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Ruger.png" />
+    <Content Include="Content\Images\InstallationRetrofit\USCustoms.png" />
+    <Content Include="Content\Images\MechanicalEngineeringDesign\Celldex.png" />
+    <Content Include="Content\Images\MechanicalEngineeringDesign\CleanroomChar.png" />
+    <Content Include="Content\Images\MechanicalEngineeringDesign\Diagram.png" />
+    <Content Include="Content\Images\MechanicalEngineeringDesign\Header.png" />
+    <Content Include="Content\Images\MechanicalEngineeringDesign\MedLab.png" />
+    <Content Include="Content\Images\MechanicalEngineeringDesign\Ruger.png" />
+    <Content Include="Content\Images\MechanicalEngineeringDesign\USCustoms.png" />
+    <Content Include="Content\Images\PartnerLogos\aerco.png" />
+    <Content Include="Content\Images\PartnerLogos\Carrier.png" />
+    <Content Include="Content\Images\PartnerLogos\daikin.png" />
+    <Content Include="Content\Images\PartnerLogos\Dectron.png" />
+    <Content Include="Content\Images\PartnerLogos\Fujitsu.png" />
+    <Content Include="Content\Images\PartnerLogos\Governaire.png" />
+    <Content Include="Content\Images\PartnerLogos\Lennox.png" />
+    <Content Include="Content\Images\PartnerLogos\Liebert.png" />
+    <Content Include="Content\Images\PartnerLogos\Mammoth.png" />
+    <Content Include="Content\Images\PartnerLogos\Mutsubishi.png" />
+    <Content Include="Content\Images\PartnerLogos\trane.png" />
+    <Content Include="Content\Images\PartnerLogos\York.png" />
+    <Content Include="Content\Images\PreventiveMaintenance\belt.jpg" />
+    <Content Include="Content\Images\PreventiveMaintenance\coilcleaning.jpg" />
+    <Content Include="Content\Images\PreventiveMaintenance\coilcleaning2.jpg" />
+    <Content Include="Content\Images\PreventiveMaintenance\coilcleaning3.jpg" />
+    <Content Include="Content\Images\PreventiveMaintenance\filter.jpg" />
+    <Content Include="Content\Images\PreventiveMaintenance\filter2.jpg" />
     <Content Include="Content\Images\SplashLogo.JPG" />
     <Content Include="Content\Images\Logo_Footer.png" />
     <Content Include="Content\Images\Logo.png" />
     <Content Include="Content\Images\PreventiveMaintenance\Header.png" />
-    <Content Include="Content\Images\RetroFit\Arrow.png" />
-    <Content Include="Content\Images\RetroFit\ArrowText.png" />
-    <Content Include="Content\Images\RetroFit\Crew.png" />
-    <Content Include="Content\Images\RetroFit\Header.png" />
-    <Content Include="Content\Images\RetroFit\Logo1.png" />
-    <Content Include="Content\Images\RetroFit\Logo2.png" />
-    <Content Include="Content\Images\RetroFit\Logo3.png" />
-    <Content Include="Content\Images\RetroFit\New1.png" />
-    <Content Include="Content\Images\RetroFit\New2.png" />
-    <Content Include="Content\Images\RetroFit\Old1.png" />
-    <Content Include="Content\Images\RetroFit\Old2.png" />
-    <Content Include="Content\Images\ServiceRepair\Header.png" />
-    <Content Include="Content\Images\WorkEthic\Construction1.png" />
-    <Content Include="Content\Images\WorkEthic\Construction2.png" />
-    <Content Include="Content\Images\WorkEthic\Construction3.png" />
-    <Content Include="Content\Images\WorkEthic\Dan.png" />
-    <Content Include="Content\Images\WorkEthic\Header.png" />
-    <Content Include="Content\Images\WorkLib\Header.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Arrow.png" />
+    <Content Include="Content\Images\InstallationRetrofit\ArrowText.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Crew.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Header.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Logo1.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Logo2.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Logo3.png" />
+    <Content Include="Content\Images\InstallationRetrofit\New1.png" />
+    <Content Include="Content\Images\InstallationRetrofit\New2.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Old1.png" />
+    <Content Include="Content\Images\InstallationRetrofit\Old2.png" />
+    <Content Include="Content\Images\EmergencyService\Header.png" />
     <Content Include="Content\Styles\Old\About.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -232,18 +255,18 @@
     <Content Include="Views\Shared\_LayoutOld.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\AboutUs\History.cshtml" />
-    <Content Include="Views\Contact\Careers.cshtml" />
     <Content Include="Views\Contact\ContactInfo.cshtml" />
-    <Content Include="Views\Services\Installation.cshtml" />
-    <Content Include="Views\Services\RetroFit.cshtml" />
-    <Content Include="Views\Services\WorkEthic.cshtml" />
-    <Content Include="Views\Services\MechanicalConstructionDesign.cshtml" />
+    <Content Include="Views\Services\InstallationRetrofit.cshtml" />
+    <Content Include="Views\Services\MechanicalEngineeringDesign.cshtml" />
     <Content Include="Views\Services\PreventiveMaintenance.cshtml" />
-    <Content Include="Views\Services\ServiceRepair.cshtml" />
+    <Content Include="Views\Services\EmergencyService.cshtml" />
     <Content Include="Views\Services\BuildingAutomation.cshtml" />
-    <Content Include="Views\Services\ITLanRooms.cshtml" />
+    <Content Include="Views\Services\ITRoomsDatacenters.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Content\Images\ITRoomsDatacenters\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

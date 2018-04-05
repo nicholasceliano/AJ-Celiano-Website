@@ -4,37 +4,32 @@ namespace WebSite.Controllers
 {
     public class ServicesController : Controller
     {
-        public ActionResult MechanicalConstructionDesign()
-        {
-            return View();
-        }
-
-        public ActionResult Installation()
-        {
-            return View();
-        }
-
-        public ActionResult RetroFit()
-        {
-            return View();
-        }
-        
-        public ActionResult ServiceRepair()
-        {
-            return View();
-        }
-
-        public ActionResult PreventiveMaintenance()
-        {
-            return View();
-        }
-
         public ActionResult BuildingAutomation()
         {
             return View();
         }
 
-        public ActionResult ITLanRooms()
+        public ActionResult EmergencyService()
+        {
+            return View();
+        }
+
+        public ActionResult InstallationRetrofit()
+        {
+            return View();
+        }
+
+        public ActionResult ITRoomsDatacenters()
+        {
+            return View();
+        }
+
+        public ActionResult MechanicalEngineeringDesign()
+        {
+            return View();
+        }
+
+        public ActionResult PreventiveMaintenance()
         {
             return View();
         }
