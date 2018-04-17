@@ -14,7 +14,7 @@ namespace WebSite.Controllers
             return View();
         }
 
-        public ActionResult InstallationRetrofit()
+        public ActionResult EngineeredInstallation()
         {
             return View();
         }
@@ -24,7 +24,7 @@ namespace WebSite.Controllers
             return View();
         }
 
-        public ActionResult MechanicalEngineeringDesign()
+        public ActionResult MechanicalHVACDesignRetrofit()
         {
             return View();
         }
