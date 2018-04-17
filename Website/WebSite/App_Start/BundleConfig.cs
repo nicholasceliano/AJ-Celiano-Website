@@ -16,7 +16,6 @@ namespace WebSite
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/bootstrap.min.css",
                         "~/Content/font-awesome.min.css",
-                        "~/Content/Styles/Old/*.css",
                         "~/Content/Styles/site/*.css"));
         }
     }   

@@ -50,6 +50,12 @@
     cursor: default;
 }
 
+@media screen and (max-width: 576px) {
+    .navbar ul li div.sublink-content {
+        left: 40px;
+    }
+}
+
 .navbar ul li div.sublink-content {
     display: none;
     position: absolute;
