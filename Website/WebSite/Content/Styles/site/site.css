@@ -9,6 +9,29 @@
     body, footer {
         text-align: center;
     }
+
+    footer {
+        padding: 15px;
+    }
+
+    img, .no-padding-left {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        box-shadow: 0 5px 15px rgba(0,0,0,0) !important;
+    }
+
+    p {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    
+    .section-padding {
+        padding-bottom: 20px !important;
+    }
+
+    .last-div-with-img {
+        margin-bottom:0 !important;
+    }
 }
 
 h1, h2, h3 {
@@ -56,6 +79,6 @@ h1, h2, h3 {
 }
 
 .section-padding {
-    padding-top:50px;
+    padding-top:20px;
     padding-bottom:50px;
 }

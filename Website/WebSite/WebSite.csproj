@@ -119,10 +119,10 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Images\AboutUs\Dan.png" />
     <Content Include="Content\Images\AboutUs\Greg.png" />
+    <Content Include="Content\Images\AboutUs\Owners.jpg" />
     <Content Include="Content\Images\AboutUs\Mike.png" />
     <Content Include="Content\Images\AboutUs\Office.png" />
     <Content Include="Content\Images\AboutUs\OldOffice.png" />
-    <Content Include="Content\Images\AboutUs\Owners.png" />
     <Content Include="Content\Images\BuildingAutomation\BuildingAutomation - 1.JPG" />
     <Content Include="Content\Images\BuildingAutomation\Header.png" />
     <Content Include="Content\Images\BuildingAutomation\IMG_2534.JPG" />
@@ -138,6 +138,7 @@
     <Content Include="Content\Images\ITRoomsDatacenters\Header.png" />
     <Content Include="Content\Images\MechanicalHVACDesignRetrofit\DesignRetrofit - 1.JPG" />
     <Content Include="Content\Images\MechanicalHVACDesignRetrofit\DesignRetrofit - 2.JPG" />
+    <Content Include="Content\Images\MechanicalHVACDesignRetrofit\DesignRetrofit - 3.jpg" />
     <Content Include="Content\Images\MechanicalHVACDesignRetrofit\Header.png" />
     <Content Include="Content\Images\PartnerLogos\Aaon.png" />
     <Content Include="Content\Images\PartnerLogos\ABB.png" />
@@ -244,7 +245,8 @@
     <Content Include="Views\Services\BuildingAutomation.cshtml" />
     <Content Include="Views\Services\ITRoomsDatacenters.cshtml" />
     <Content Include="Views\Services\EngineeredInstallation.cshtml" />
-    <Content Include="Views\Error\Error.cshtml" />
+    <Content Include="Views\Error\PageNotFound.cshtml" />
+    <Content Include="Views\Error\InternalServerError.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
